@@ -2,10 +2,16 @@ package first100;
 
 public class Longest_Palindromic_Substring {
     public String longestPalindrome(String s) {
-        int R = 0;
-        int C = -1;
+        StringBuffer sb = new StringBuffer("#");
         for (int i = 0; i < s.length(); i++) {
-            int curR = 0;
+            sb.append(s.charAt(i)).append('#');
+        }
+        int cen = 1;
+        int r = 0;
+        for (int i = 1; i < sb.length() - 1; i++) {
+            int lo = i - 1;
+            int hi = i + 1;
+            while (lo >= 0);
         }
         return "";
     }
