@@ -1,6 +1,6 @@
 package first100;
 
-public class Longest_Common_Prefix {
+public class Le014_Longest_Common_Prefix {
 
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0 || strs[0].length() == 0) {

@@ -1,6 +1,6 @@
 package first100;
 
-public class Palindrome_Number {
+public class Le009_Palindrome_Number {
     public boolean isPalindrome(int x) {
         if(x < 0) {
             return false;

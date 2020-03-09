@@ -2,7 +2,7 @@ package first100;
 
 import java.util.HashMap;
 
-public class Longest_Substring_Without_Repeating_Characters {
+public class Le003_Longest_Substring_Without_Repeating_Characters {
 
     public int lengthOfLongestSubstring(String s) {
         if (s.length() < 2) {

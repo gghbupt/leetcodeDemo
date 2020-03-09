@@ -1,6 +1,6 @@
 package first100;
 
-public class Reverse_Integer {
+public class Le007_Reverse_Integer {
     public int reverse(int x) {
         boolean isMinus = x < 0;
         x = Math.abs(x);

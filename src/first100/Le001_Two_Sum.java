@@ -2,7 +2,7 @@ package first100;
 
 import java.util.HashMap;
 
-public class Two_Sum {
+public class Le001_Two_Sum {
     public static int[] twoSum(int[] nums, int target) {
         int[] res = new int[2];
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();

@@ -1,6 +1,6 @@
 package first100;
 
-public class Longest_Palindromic_Substring {
+public class Le005_Longest_Palindromic_Substring {
     public String longestPalindrome(String s) {
         StringBuffer sb = new StringBuffer("#");
         for (int i = 0; i < s.length(); i++) {

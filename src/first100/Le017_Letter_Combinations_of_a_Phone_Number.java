@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Letter_Combinations_of_a_Phone_Number {
+public class Le017_Letter_Combinations_of_a_Phone_Number {
     public static Map<Integer, List<String>> dicMap = new HashMap<Integer, List<String>>(){
         {
             put(2,new ArrayList<String>(){{add("a");add("b");add("c");}});

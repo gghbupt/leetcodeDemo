@@ -2,7 +2,7 @@ package first100;
 
 import utils.ListNode;
 
-public class Remove_Nth_Node_From_End_of_List {
+public class Le019_Remove_Nth_Node_From_End_of_List {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode end = head;
         for (int i = 0; i < n; i++) {
